@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="/cadastroDePessoasBootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+    
+    <div class="card m-0">
+        <div class="card-header d-flex">
+          <p><h2 class="card-title">Cadastro de Pessoas</h2></p>
+        </div>
+        <div class="card-body m-3 p-3 text-center">
+            <h4><p class="card-text">Preencha o Formulário</p></h4>
+            <hr/>
+          <form class="m-5">
+            <div class="form-row d-flex justify-content-center">
+              <div class="col-4 mb-4">
+                <label class="d-flex justify-content-flex-start" for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome"  placeholder="Seu nome">
+              </div>
+              <div class="col-4">
+                <label class="d-flex" for="idade">Idade</label>
+                <input type="number" class="form-control" id="idade" placeholder="EXEMPLO: 23" />
+              </div>
+            </div> 
+            <div class="form-row d-flex justify-content-center">
+                <div class="col-4">
+                    <label class="d-flex justify-content-flex-start" for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email" />
+                    <small id="email" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+              </div>
+              <div class="col-4">
+                <label class="d-flex" for="senha">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="A senha deve conter pelo menos 4 digitos" />
+              </div>
+            </div>
+              <div class="row form-check d-flex justify-content-flex-start ml-5 pl-5 mt-2">
+                <div class="ml-5 pl-1">
+                  <input type="checkbox" class="form-check-input ml-5 pl-5" id="check">
+                  <label class="form-check-label ml-5 pl-3" for="check">Eu li e concordo com os termos de uso</label>
+                </div>
+              </div>
+            <div class="form-row d-flex justify-content-flex-start mt-3 ml-5 pl-5">
+              <div class="ml-5 pl-5">
+                <input type="submit" class="btn btn-success" value="Enviar"></input>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="footer card-footer container-fluid bg-gradient-secondary mt-3 p-5">
+          <span class="card-text d-flex justify-content-center">&copy;Bootstrap Enterprise RCA &reg;</span>
+        </div>
+      </div>
+
+    <script src="/cadastroDePessoasBootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/cadastroDePessoasBootstrap/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/cadastroDePessoasBootstrap/node_modules/popper.js/dist/popper.min.js"></script>
+</body>
+</html>
